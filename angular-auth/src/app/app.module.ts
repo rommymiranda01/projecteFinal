@@ -7,7 +7,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { RegisComponent } from './components/regis/regis.component';
 import { HomeComponent } from './components/home/home.component';
 import { UserService } from "./service/user.service";
 import { IndexComponent } from './components/user/index/index.component';
@@ -19,7 +18,6 @@ import { EditComponent } from './components/user/edit/edit.component';
     AppComponent,
     LoginComponent,
     NavbarComponent,
-    RegisComponent,
     HomeComponent,
     IndexComponent,
     CreateComponent,
