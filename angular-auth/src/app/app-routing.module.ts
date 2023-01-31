@@ -11,11 +11,11 @@ const routes: Routes = [
   //{path: '', component: HomeComponent},
   //{path: 'login', component: LoginComponent},
   //{path: 'regis', component: RegisComponent},
-  {path: '**', redirectTo: ''},
-  { path: 'person', redirectTo: 'person/index', pathMatch: 'full'},
-  { path: 'person/index', component: IndexComponent },
-  { path: 'person/create', component: CreateComponent },
-  { path: 'person/edit/:idPerson', component: EditComponent }
+  //{path: '**', redirectTo: ''},
+  { path: 'user', redirectTo: 'user/index', pathMatch: 'full'},
+  { path: 'user/index', component: IndexComponent },
+  { path: 'user/create', component: CreateComponent },
+  { path: 'user/edit/:idPerson', component: EditComponent }
 ];
 
 @NgModule({
